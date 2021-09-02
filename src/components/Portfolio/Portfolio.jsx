@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "../Navigation/Navbar"
+import Footer from "../Footer/Footer";
 import PortfolioItem from "./PortfolioItem"
 
 import "./styles.css";
@@ -6,6 +8,8 @@ import "./styles.css";
 const Portfolio = () => {
     return (
         <div className="portfolio__container">
+            <a id="top"></a>
+            <Navbar />
             <div className="portfolio__container--center">
                 <h2 className="portfolio__heading">Responsive design written in HTML, CSS, React, Javascript and TypeScript</h2>
                 <div className="flexparent">
@@ -17,7 +21,7 @@ const Portfolio = () => {
                     <PortfolioItem imgsrc="https://image.freepik.com/free-vector/purple-coming-soon-neon-icon-vector_53876-77843.jpg" alt="To do list" link="https://codepen.io/nicolawinterson/pen/xxbZqEq" />
                 </div>
             </div>
-            <footer className="portfolio__container--bottom" />
+            <Footer href="#top" />
         </div>
     )
 }

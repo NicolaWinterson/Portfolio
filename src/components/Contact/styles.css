@@ -1,0 +1,207 @@
+/*UNIVERSAL RULES*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact__container--bottom {
+    height: 80px;
+    margin-top: 3vh;
+    background-color: #95aea3;
+    display: block;
+}
+
+.contact__container--heading {
+    font-weight: 800;
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 9vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact__container {
+        margin-top: 15vh;
+    }
+    
+    .contact__container--centerText {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding-bottom: 3vh;
+    }
+    
+    .contact__container--bottom {
+        height: 80px;
+        margin-top: 3vh;
+        background-color: #95aea3;
+        display: block;
+    }
+
+    .contact__container--background {
+        width: 100%;
+        max-width: 1200px;
+        border-radius: 0;
+        margin: auto;
+        background-color: #4a6156;
+        padding-top: 2vh;
+    }
+
+    .contact__container--socialmedia {
+        margin: auto;
+        width: auto;
+        padding: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .social-media-icons {
+        width: 50px;
+        height: 50px;
+        filter: invert(100%);
+    }
+
+    .contact__container--form {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact__container--form label {
+        flex-grow: 2;
+        color: rgb(255,255,255);
+        margin: 2vh 0.5vw 0.5vh;
+    }
+    
+    .contact__container--formInput {
+        width: 90%;
+        padding: 8px 20px;
+        margin: 2vh 0.5vw;
+        border: none;
+    }
+    
+    .contact__container--formInput-large {
+        width: 90%;
+        max-width: 90%;
+        padding: 8px 20px;
+        margin: 2vh 0.5vw;
+        border: none;
+    }
+    
+    .contact__container--submit {
+        align-self: flex-end;
+        width: 10%;
+        border-radius: 4px;
+        padding: 1vw;
+        margin: 1vh;
+        margin-right: 10%;
+        background-color: rgb(74, 97, 86);
+        color: rgb(255,255,255);
+    }
+}
+
+
+@media only screen and (min-width: 801px) {
+    .contact__container {
+        background-color: #ffffff;
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    
+    .contact__container--centerText {
+        margin: 3vh 7.5vw 5vh;
+    }
+    
+    .contact__container--top {
+        height: 90px;
+        background-color: #f0e7de;
+        border-bottom: 1px solid #95aea3;
+    }
+      
+    .contact__container--center {
+        background: #ffffff;
+    }
+    
+    .contact__container--background {
+        width: 85%;
+        max-width: 1200px;
+        margin: auto;
+        background-color: #4a6156;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact__container--socialmedia {
+        padding: 2vh;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .contact__container--form {
+        padding: 2vh;
+        max-width: 90%;
+        flex-flow: column nowrap;
+    }
+    
+    .contact__container--form label {
+        flex-grow: 2;
+        color: rgb(255,255,255);
+        margin: 2vh 0.5vw 0.5vh;
+    }
+    
+    .contact__container--formInput {
+        width: 90%;
+        padding: 8px 20px;
+        margin: 2vh 0.5vw;
+        border: none;
+    }
+    
+    .contact__container--formInput-large {
+        width: 90%;
+        max-width: 90%;
+        padding: 8px 20px;
+        margin: 2vh 0.5vw;
+        border: none;
+    }
+    
+    .contact__container--submit {
+        align-self: flex-end;
+        width: 10%;
+        border-radius: 4px;
+        padding: 1vw;
+        margin: 1vh;
+        margin-right: 10%;
+        background-color: rgb(74, 97, 86);
+        color: rgb(255,255,255);
+    }
+    
+    .contact__container--submit:hover {
+        cursor: pointer;
+        background-color: rgba(74, 97, 86, 0.5);
+        color: rgb(0, 0, 0);
+        transform: translate(0, 0.375em);
+    }
+    
+    .social-media-icons {
+        /* min-width: 40px;
+        min-height: 40px;
+        max-width: 75px;
+        max-height: 75px; */
+        width: 60px;
+        height: 60px;
+        margin: 1.5vw;
+        filter: invert(100%);
+    }
+    
+}
